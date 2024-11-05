@@ -56,7 +56,7 @@ function findSecret(filePath) {
     const secret = lagrangeInterpolation(points, k);
 
 
-    console.log("Secret (constant term c):", secret);
+    console.log( secret);
 }
 
 
